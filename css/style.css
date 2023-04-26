@@ -7,10 +7,14 @@
 }
 
 .contacto {
-  color: brown;
+  color: #9A1436;
   font-family: sans-serif;
   font-size: 30px;
   text-decoration: none;
+}
+
+a {
+  color: #9A1436;
 }
 
 /*# sourceMappingURL=style.css.map */
