@@ -4,15 +4,25 @@
     color: $colorTerciario;
     font-family: sans-serif;
     font-size: 30px;
-    text-decoration: none;
+    text-decoration: $colorTerciario;
 }
 /* cambiar el color de fondo a la barra */
 
 .nav-link{color: $colorTerciario;
           font-size: 20px;}
 
-.bg-bcard{background-color: 
-    #37D7CB
-    ;}
-.card-title{font-family: 'Poltawski Nowy', serif;
-    font-family: 'Roboto', sans-serif;}    
+
+header{
+    nav{padding:10px;
+    ul{display: flex;
+         li{list-style-type: none;
+            a{text-decoration: none;
+            font-size: 20px;
+            font-style: italic;
+            color:$colorTerciario;
+            padding: 20px;
+            }
+           }
+    }
+}
+}

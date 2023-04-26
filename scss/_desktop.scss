@@ -1,0 +1,12 @@
+//MEDIA DESKTOP 
+@media (min-width:1023px) {
+ul{
+    list-style-type: none;
+}
+a{text-decoration: none;
+    font-size: 20px;
+font-style: italic;
+color:$colorTerciario;
+padding: 20px;
+}
+}

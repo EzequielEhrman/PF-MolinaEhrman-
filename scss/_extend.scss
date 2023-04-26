@@ -1,0 +1,32 @@
+//EXTEND
+
+.boton{
+    width: 60px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    color:$colorTerciario;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+//BOTON PRIMARIO, SECUNDARIO Y TERCIARIO
+
+@each $contexto in primario, secundario, terciario{
+    .boton-#{$contexto}{
+        @extend .boton;
+    }
+}
+
+.boton-primario{
+    background-color: $colorTerciario;
+    color: $colorPrincipal;
+    border: 1px solid black;
+}
+.boton-secundario{
+    background-color: $bgb;
+    color: black;
+    border: 1px solid $colorPrincipal;
+    
+}
