@@ -13,6 +13,12 @@
   text-decoration: #9A1436;
 }
 
+.bgform {
+  background-color: #EED2D0;
+  border-radius: 20px;
+  border: 2px #EED2D0;
+}
+
 /* cambiar el color de fondo a la barra */
 .nav-link {
   color: #9A1436;
@@ -49,14 +55,14 @@ header nav ul li a {
 
 .boton-primario {
   background-color: #9A1436;
-  color: #fff;
+  color: #EED2D0;
   border: 1px solid black;
 }
 
 .boton-secundario {
-  background-color: #37D7CB;
+  background-color: #EED2D0;
   color: black;
-  border: 1px solid #fff;
+  border: 1px solid #EED2D0;
 }
 
 /*# sourceMappingURL=style.css.map */

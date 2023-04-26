@@ -6,12 +6,18 @@
     font-size: 30px;
     text-decoration: $colorTerciario;
 }
+//BACKGROUND FORMULARIOS
+.bgform{
+    background-color: $colorPrincipal;
+    border-radius: 20px ;
+    border: 2px $colorPrincipal;
+}
 /* cambiar el color de fondo a la barra */
 
 .nav-link{color: $colorTerciario;
           font-size: 20px;}
 
-
+//NESTING
 header{
     nav{padding:10px;
     ul{display: flex;
