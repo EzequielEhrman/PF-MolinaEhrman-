@@ -13,8 +13,10 @@
   text-decoration: none;
 }
 
-a {
+/* cambiar el color de fondo a la barra */
+.nav-link {
   color: #9A1436;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
