@@ -1,11 +1,6 @@
 .p20{padding: 20px;}
 .p50{padding: 50px;}
-.contacto{
-    color: $colorTerciario;
-    font-family: sans-serif;
-    font-size: 30px;
-    text-decoration: $colorTerciario;
-}
+
 //BACKGROUND FORMULARIOS
 .bgform{
     background-color: $colorPrincipal;
@@ -32,3 +27,55 @@ header{
     }
 }
 }
+.footer {
+    background-color:$colorPrincipal;
+    padding: 40px 0;
+  
+    .social-icons {
+      display: flex;
+      justify-content: flex-start;
+  
+      a {
+        color:$colorPrincipal;
+        margin-right: 20px;
+  
+        &:hover {
+          color: #007bff;
+        }
+  
+        .fab {
+          font-size: 24px;
+        }
+      }
+    }
+  
+    .contact-info {
+      text-align: right;
+      
+      
+      
+  
+      a {
+        font-size: 20px;
+        color: $colorSecundario;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-decoration: none;
+        flex-wrap: wrap;
+  
+        &:hover {
+          color:$colorTerciario;
+        }
+      }
+    }
+  
+    .copy-right {
+      text-align: center;
+      margin-top: 40px;
+  
+      p {
+        font-size: 14px;
+        color: $colorSecundario;
+      }
+    }
+  }

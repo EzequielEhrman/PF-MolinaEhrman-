@@ -6,17 +6,10 @@
   padding: 50px;
 }
 
-.contacto {
-  color: #9A1436;
-  font-family: sans-serif;
-  font-size: 30px;
-  text-decoration: #9A1436;
-}
-
 .bgform {
-  background-color: #EED2D0;
+  background-color: #9A9A9A;
   border-radius: 20px;
-  border: 2px #EED2D0;
+  border: 2px #9A9A9A;
 }
 
 /* cambiar el color de fondo a la barra */
@@ -42,6 +35,47 @@ header nav ul li a {
   padding: 20px;
 }
 
+.footer {
+  background-color: #9A9A9A;
+  padding: 40px 0;
+}
+.footer .social-icons {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer .social-icons a {
+  color: #9A9A9A;
+  margin-right: 20px;
+}
+.footer .social-icons a:hover {
+  color: #007bff;
+}
+.footer .social-icons a .fab {
+  font-size: 24px;
+}
+.footer .contact-info {
+  text-align: right;
+}
+.footer .contact-info a {
+  font-size: 20px;
+  color: #F5E5F0;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+.footer .contact-info a:hover {
+  color: #9A1436;
+}
+.footer .copy-right {
+  text-align: center;
+  margin-top: 40px;
+}
+.footer .copy-right p {
+  font-size: 14px;
+  color: #F5E5F0;
+}
+
 .boton, .boton-terciario, .boton-secundario, .boton-primario {
   width: 60px;
   height: 30px;
@@ -55,14 +89,14 @@ header nav ul li a {
 
 .boton-primario {
   background-color: #9A1436;
-  color: #EED2D0;
+  color: #9A9A9A;
   border: 1px solid black;
 }
 
 .boton-secundario {
-  background-color: #EED2D0;
+  background-color: #9A9A9A;
   color: black;
-  border: 1px solid #EED2D0;
+  border: 1px solid #9A9A9A;
 }
 
 /*# sourceMappingURL=style.css.map */
