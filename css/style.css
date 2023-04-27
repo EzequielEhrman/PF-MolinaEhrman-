@@ -6,6 +6,12 @@
   padding: 50px;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .bgform {
   background-color: #9A9A9A;
   border-radius: 20px;
@@ -89,7 +95,7 @@ header nav ul li a {
 
 .boton-primario {
   background-color: #9A1436;
-  color: #9A9A9A;
+  color: #F5E5F0;
   border: 1px solid black;
 }
 
