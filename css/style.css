@@ -18,7 +18,6 @@
   border: 2px #9A9A9A;
 }
 
-
 /* cambiar el color de fondo a la barra */
 .nav-link {
   color: #9A1436;
@@ -104,6 +103,13 @@ header nav ul li a {
   background-color: #9A1436;
   color: #F5E5F0;
   border: 1px solid #9A9A9A;
+}
+
+.scale {
+  transition: all 1s;
+}
+.scale:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */

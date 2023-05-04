@@ -1,0 +1,11 @@
+//Transform
+
+//SCALE vALORES >1 AGRANDAN; Valores entre o y 1 achican y los menores a 0, escalan dado vuelta.
+.scale{
+    transition: all 1s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+
