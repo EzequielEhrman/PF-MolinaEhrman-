@@ -1,12 +1,44 @@
 //MEDIA DESKTOP 
-@media (min-width:1023px) {
-ul{
-    list-style-type: none;
+/*@medias*/
+/*DESKTOP*/
+@media (min-width:1023px){
+    //GRID INDEX
+    .GridIndex{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+
+    }
+   //GRID MAIN INDEX
+    .GridMainIndex{display: grid;
+    grid-template-areas: 
+    "imgencabezado imgencabezado imgencabezado imgencabezado"
+    "titulo titulo titulo titulo"
+    "img1 img2 img3 img4"
+    "formularioIndex formularioIndex mapa mapa";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+} 
+
+    .imgencabezado{grid-area: imgencabezado;}
+    .titulo{grid-area: titulo;}
+    .img1{grid-area: img1;}
+    .img2{grid-area: img2;}
+    .img3{grid-area: img3;}
+    .img4{grid-area: img4;}
+    .formularioIndex{grid-area: formularioIndex;}
+    .mapa{grid-area: mapa;} 
+
+
+.titulo{
+grid-area: titulo;
+display: flex;
+flex-direction: column;
+align-items: center;
+color:$colorPrincipal;
 }
-a{text-decoration: none;
-    font-size: 20px;
-font-style: italic;
-color:$colorTerciario;
-padding: 20px;
-}
+
+.jscenter{ display: flex;
+justify-content: center;
+align-items: center;}
 }
