@@ -12,6 +12,11 @@
   justify-content: center;
 }
 
+.headermedia {
+  display: flex;
+  justify-content: space-between;
+}
+
 .bgform {
   background-color: #9A9A9A;
   border-radius: 20px;
@@ -82,7 +87,6 @@ header nav ul li a {
   color: #F5E5F0;
 }
 
-/*MOBILE*/
 @media (max-width: 768px) {
   header, main, footer {
     display: flex;
