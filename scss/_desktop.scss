@@ -15,9 +15,10 @@
     "imgencabezado imgencabezado imgencabezado imgencabezado"
     "titulo titulo titulo titulo"
     "img1 img2 img3 img4"
+    "subtitulo subtitulo subtitulo subtitulo"
     "formularioIndex formularioIndex mapa mapa";
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: repeat(5,auto);
 } 
 
     .imgencabezado{grid-area: imgencabezado;}
@@ -26,6 +27,7 @@
     .img2{grid-area: img2;}
     .img3{grid-area: img3;}
     .img4{grid-area: img4;}
+    .subtitulo{grid-area: subtitulo;}
     .formularioIndex{grid-area: formularioIndex;}
     .mapa{grid-area: mapa;} 
 
@@ -35,10 +37,15 @@ grid-area: titulo;
 display: flex;
 flex-direction: column;
 align-items: center;
-color:$colorPrincipal;
+}
+.subtitulo{
+text-align: center;
+font-size: 20px;
+
 }
 
 .jscenter{ display: flex;
 justify-content: center;
 align-items: center;}
+
 }

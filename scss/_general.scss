@@ -30,7 +30,8 @@ header{
             font-size: 20px;
             font-style: italic;
             color:$colorTerciario;
-            padding: 20px;
+            padding: 8px;
+            
             }
            }
     }
@@ -49,12 +50,9 @@ header{
         margin-right: 20px;
   
         &:hover {
-          color: #007bff;
+          color: #ff0000;
         }
-  
-        .fab {
-          font-size: 24px;
-        }
+
       }
     }
   
@@ -89,4 +87,6 @@ header{
     }
   }
 
-
+//FUENTES
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+.fnav{font-family: 'Roboto', sans-serif;}
